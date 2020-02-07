@@ -1,0 +1,269 @@
+/*global Selector*/
+
+
+@font-face {
+src: url(../fonts/Sacramento/Sacramento-Regular.ttf);
+font-family:"Sacramento";
+}
+@font-face {
+src: url(../fonts/Merriweather/Merriweather-Black.ttf);
+font-family:"Merriweather"
+}
+@font-face {
+src: url(../fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf);
+font-family:"Montserrat";
+}
+
+@font-face {
+src: url(../fonts/Montserrat/Montserrat-BlackItalic.ttf);
+font-family: "monts";
+}
+@font-face {
+src: url(../fonts/Merriweather/Merriweather-Light.ttf);
+font-family: "merri";
+}
+
+
+#intro-heading {
+    font-family: "Sacramento";
+    font-size: 100px;
+    text-align: center;
+    color:fuchsia;
+    font-weight: bold;
+}
+.sub-heading{
+    padding: 0%;
+    font-family:"Montserrat";
+    font-size: 50px;
+    padding-bottom: 0%;
+    text-align: center;
+    color: blue;
+}
+
+#cloud{
+    top: 0%;
+    float: left;  
+    color:grey;
+}
+
+#mountain{
+    clear: both;
+    top: 75;
+    margin-left: 20%;
+}
+#cloud1{
+    top: 5%;
+    float: right;  
+    color:grey;
+}
+
+#mid-title{
+    font-family:"Sacramento";
+    font-size: 50px;
+    padding: 0.5%;
+    color:fuchsia;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.mid{
+    font-family: new;
+    font-size: 22px;
+    color:slateblue;
+    text-align: center; 
+}
+.pic{
+    border-radius: 50%;
+    height: 40vh;
+    width: 40vh;
+    margin-left: 40%;
+    margin-right: 50%;
+   
+}
+
+.myskills{
+    font-size: 50px;
+    font-weight: bolder;
+    text-align:center;
+    color: fuchsia;
+    font-family:"Sacramento";
+}
+#skills{
+    text-align:center;
+}
+.design{ 
+    height:20vh;
+    width: 20vh;
+    margin-left: 15%;
+    border-radius: 20%;
+    float: left;
+    margin-top: 1%;
+}
+
+.a{
+    font-family: new; 
+    font-weight: bolder;
+    text-align:left;
+    color:purple ; 
+    font-size: 30px;  
+    text-indent: 2%;
+
+}
+.down{
+    text-align: center;
+    text-indent: 1%;
+    padding: 0%;
+    font-size: 20px;
+    color: black;
+    margin-top: 0.5%;
+    margin-bottom: 10%;
+    margin-right: 1cm;
+    font-family: new;
+    text-align-last: center;
+}
+.active{
+    height:20vh;
+    width: 20vh;
+    float: right;
+    margin-right:8%;
+    border-radius: 20%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+
+}
+.vigo{
+    font-family: new; 
+    font-weight: bolder;
+    text-align:center;
+    color:purple ; 
+    font-size: 30px;  
+    text-indent: 2%;
+    margin-left: 56%;
+    margin-right: 20%;
+    text-align: right;
+    margin-bottom: 2%;
+}
+.pk{
+    text-align: justify;
+    text-indent: 1%;
+    text-align-last:center;
+    padding: 0%;
+    font-size: 20px;
+    color: black;
+    margin-top: 1%;
+    margin-left: 25%;
+    margin-right: 20%;
+    font-family: new;
+    margin-bottom: 2%;
+}
+
+body{
+    background-color: mediumturquoise;
+    background-size: 100% 100%;
+}
+
+.gettouch{
+    color: fuchsia;
+    font-size: 50px;
+    font-family: "Sacramento";
+    text-align: center;
+    margin: 250px 250px 0px 200px;
+    font-weight: bolder;
+}
+.getknow{
+    color:purple;
+    font-size: 25px;
+    text-align: center;
+    font-family: Georgia;
+}   
+
+.contact{
+    color: black;
+    font-size: 22px;
+    font-family: new;
+    text-align: center;
+}
+#box-container{
+    background: rgba(14, 231, 159, 0.993);
+    width:250px;
+    height:40px;
+    margin: 0px 190px 0px 450px;
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.contactme{
+    color:black;
+    font-size: 25px;
+    text-align: center;
+    background-color:rgb(75, 134, 8);
+    margin-top: 5%;
+    margin-bottom: 0%;
+    border-radius: 0%;
+    font-weight: bold;
+    width: 30%;
+
+}
+.navbar{
+    text-align: center;
+    font-size: 20px;
+    margin:290px 0px 0px 0px;
+}
+.navbar :hover{
+    color: red;
+    padding: 10px;
+    font-size: 25px;
+    text-underline-position: none;
+
+}
+.footer{
+    padding-top:5%;
+    left: 0;
+    bottom: 0;
+    width:100%;
+    height: 30%;
+    color:black;
+    text-align: center;
+    background-color: rgba(13, 189, 71, 0.699);
+    margin-top: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
+    
+    
+
+
+}
+.fb :hover{
+    color: firebrick;
+    padding: 50px;
+    text-decoration: none;
+    text-align: center;
+}
+.insta :hover{
+    color: firebrick;
+    padding: 50px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
